@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    padding: 35px;
+    text-align: center;
+    background-color: #ccc;
+    border: 2px burlywood;
+}
+
+nav{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 8px;
+    border: 2px black;
+    background-color: bisque;
+    margin-top: 0px;
+}
+
+nav ul li a{
+    display: block;
+    color: black;
+    padding: 8px 16px;
+}
+
+/* change the link color on hover */
+nav ul li a:hover{
+    background-color: lemonchiffon;
+    color: whitesmoke;
+}
+
+article{
+    float: left;
+    width: 80%;
+    padding: 0 20px;
+    border: 2px solid bisque;
+}
+
+.satu{
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dua {
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer{
+    text-align: center;
+}
